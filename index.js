@@ -6,5 +6,5 @@ res.json({message: "hello from express app"});
 });
 
 app.listen(3000,()=>{
-    console.log(`Server running on https://localhost:${port}`);
+    console.log(`Server running on http://localhost:${port}`);
 });

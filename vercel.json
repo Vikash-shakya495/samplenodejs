@@ -1,13 +1,13 @@
 {
     "version": 2,
-    "builds":[
+    "build":[
         {
             "src": "./index.js",
             "use": "@vercel/node",
             
         }
     ],
-    "build": {
+    "builds": {
     "command": "npm run build",
     "output": "build"
     },

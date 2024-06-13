@@ -3,15 +3,11 @@
     "build":[
         {
             "src": "./index.js",
-            "use": "@vercel/node"
+            "use": "@vercel/node",
+            "command": "npm run build"
             
         }
     ],
-    "builds": {
-    "command": "npm run build",
-    "output": "build"
-    },
-    
     "routes": [
         {
             "src": "/(.*)",
